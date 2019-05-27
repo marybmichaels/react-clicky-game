@@ -1,0 +1,67 @@
+.card {
+  height: 8.5rem;
+  margin: 1.5rem;
+  position: relative;
+  width: 8.5rem;
+  text-align: left;
+  border: none;
+}
+
+.card-img-top {
+  height: 10rem;
+  object-fit: contain;
+}
+
+.card > .content {
+  padding-left: 1rem;
+  padding-right: 1rem;
+  font-size: 15px;
+}
+
+.card > .content > ul {
+  list-style-type: none;
+}
+
+.card > .content > ul > li {
+  margin-top: 18px;
+}
+
+@media only screen and (max-width: 959px) {
+  .card {
+    height: 6rem;
+    margin: 1rem;
+    position: relative;
+    width: 6rem;
+    text-align: left;
+  
+  }
+  
+  .card-img-top {
+    height: 6rem;
+    object-fit: cover;
+  }
+}
+
+@media only screen and (max-width: 479px) {
+  .card {
+    height: 4.5rem;
+    width: 4.5rem;
+  }
+  
+  .card-img-top {
+    height: 4.5rem;
+    object-fit: cover;
+  }
+}
+
+@media only screen and (max-width: 346px) {
+  .card {
+    height: 4rem;
+    width: 4rem;
+  }
+  
+  .card-img-top {
+    height: 4rem;
+    object-fit: cover;
+  }
+}

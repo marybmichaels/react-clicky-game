@@ -1,0 +1,48 @@
+.IconContainer {
+    display: flex;
+    min-height: 80%;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    width: 90%;
+    margin: 0 auto;
+    width: 80%;
+}
+
+@media only screen and (max-width: 1280px) {
+    .IconContainer {
+        width: 70%;
+    }
+}
+
+@media only screen and (max-width: 959px) {
+    .IconContainer {
+        width: 60%;
+    }
+}
+
+@media only screen and (max-width: 853px) {
+    .IconContainer {
+        width: 70%;
+    }
+}
+
+@media only screen and (max-width: 548px) {
+    .IconContainer {
+        width: 80%;
+    }
+}
+
+
+@media only screen and (max-width: 479px) {
+    .IconContainer {
+        width: 80%;
+    }
+}
+
+@media only screen and (max-width: 389px) {
+    .IconContainer {
+        width: 90%;
+    }
+}
